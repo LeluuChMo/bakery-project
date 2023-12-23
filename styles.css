@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+}
+@font-face {
+  font-family: ultra-regular;
+  src: url(fonts/Ultra-Regular.ttf) format(ttf);
+}
+@font-face {
+  font-family: dm-sans;
+  src: url(fonts/DMSans-Regular.ttf) format(ttf);
+}
+@font-face {
+  font-family: oswald-regular;
+  src: url(fonts/Oswald-Regular.ttf) format(ttf);
+}
+body {
+  max-width: 1440px;
+  height: 880px;
+  flex-shrink: 0;
+}
